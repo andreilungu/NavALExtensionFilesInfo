@@ -12,7 +12,7 @@
 RootModule = 'NavALExtensionFilesInfo.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.1'
 
 # ID used to uniquely identify this module
 GUID = 'a8d7529e-2ea9-459c-81d4-5d508b648225'

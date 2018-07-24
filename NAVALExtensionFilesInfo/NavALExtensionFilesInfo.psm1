@@ -22,11 +22,6 @@
     .PARAMETER GetFreeIds
         Use this switch in case you want the function to return only the free Ids. For example if you have two page extensions with IDs 50251 and 50254, the function can show you
         that Ids 50252 and 50253 are not used.
-    
-    .EXAMPLE
-        PS> Get-RandomPassword -PasswordLength 10 -NoOfPasswords 30 -PercentLowerCaseLetters 0.5 -PercentNumbers 0.5 -OpenInTextFile
-
-        This example generates 30 passwords of 10 characters composed 50% of Lowercase letters and 50% numbers each. It will also create and open a temporary text file with the passwords.
      
     .EXAMPLE
         PS> $Folder = 'C:\ALExtensionIdsSample\Folder 1'
